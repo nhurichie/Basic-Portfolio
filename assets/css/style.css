@@ -3,15 +3,15 @@ body {
    font-family:'Georgia', Times, Times New Roman, serif;
 }
  
+h1, h2, h3, h4, h5, h6 {
+    font-family: font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
 header {
     background-color:#ffffff;
     height: 100px;
     padding: 10px;
     border: 1px solid #cccccc;
-}
-
-h1, h2, h3, h4, h5, h6 {
-   font-family: font-family: 'Georgia', Times, Times New Roman, serif;
 }
   
 .aboutme {
@@ -31,6 +31,10 @@ h1, h2, h3, h4, h5, h6 {
     padding: 10px;
     margin-right: 250px;
     margin-top: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: poppins; 
+    font-weight: 400;
 }
 
 
