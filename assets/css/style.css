@@ -1,6 +1,7 @@
 body {
-   margin: 0;
-   font-family:'Georgia', Times, Times New Roman, serif;
+    margin: 0;
+    font-family:'Georgia', Times, Times New Roman, serif;
+    background: url ("./images/gplaypattern/gplaypattern_@2X.png")
 }
  
 h1, h2, h3, h4, h5, h6 {
@@ -8,7 +9,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
-    background-color:#ffffff;
+    background-color:solid #ffffff;
     height: 100px;
     padding: 10px;
     border: 1px solid #cccccc;
@@ -36,6 +37,58 @@ header {
     font-family: poppins; 
     font-weight: 400;
 }
+
+/* html images > css images 
+
+*/
+
+* {
+    box-sizing: border-box;
+    align-items: center;
+    
+  }
+  
+  img {
+    padding: 5px;
+    width: 200px;
+    align-items: center;
+    content: center;
+    
+  }
+
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    align-items: center;
+  
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+   
+  }
+
+  .column2 {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    align-items: center;
+  
+  }
+  
+  /* Clearfix (clear floats) */
+  .row2::after {
+    content: "";
+    clear: both;
+    display: table;
+   
+  }
+
+/* end html images */
 
 
 main {
